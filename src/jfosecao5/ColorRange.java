@@ -25,4 +25,16 @@ public class ColorRange {
             System.out.println("Cor é : " + cor);
         }
     }
+    
+    public void testar(int quantidadeLeitura){
+        boolean continua = true;
+        int i = 1;
+        while(continua){
+          this.quadro();
+          if(i >= quantidadeLeitura){
+              continua = false;
+          }
+          i++;
+        }
+    }
 }
